@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?5it1zs');
+  src:  url('fonts/icomoon.eot?5it1zs#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?5it1zs') format('truetype'),
+    url('fonts/icomoon.woff?5it1zs') format('woff'),
+    url('fonts/icomoon.svg?5it1zs#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-email:before {
+  content: "\e900";
+}
+.icon-formation:before {
+  content: "\e901";
+}
+.icon-home:before {
+  content: "\e902";
+}
+.icon-laptop:before {
+  content: "\e903";
+}
+.icon-mensaje:before {
+  content: "\e904";
+}
+.icon-telefono:before {
+  content: "\e905";
+}
+.icon-trabajo:before {
+  content: "\e906";
+}
+.icon-identificacion:before {
+  content: "\e907";
+}
+

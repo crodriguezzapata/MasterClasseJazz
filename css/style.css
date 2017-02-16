@@ -1,0 +1,189 @@
+.navbar{
+    margin-bottom: 0px;
+}
+
+.jumbotron{
+    padding: 0px 0;
+    background: rgb(255,180,30);
+    margin-bottom: 0;
+    margin-top: 10px;
+    border: 5px solid #222;
+}
+
+img.logo{
+    width: 50%;
+}
+
+/*Modificaciones en el slideshow*/
+#slider{
+    background: rgba(0,0,0,0.5);
+    padding: 0px 0px;
+    position: relative;
+    border: 5px solid #222;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      margin: auto;
+      margin-top: auto;
+  }
+
+.carousel-caption>h3,.carousel-caption>p{
+    font-family: "Cooper Black";
+    color: black;
+    font-size: 36px;
+    text-shadow: -1px -1px 0px #fff, 1px -1px 0px #fff, -1px 1px 0px #fff, 1px 1px 0px #fff;
+}
+
+.carousel-caption>p{
+    font-size: 20px;
+}
+/*Terminan modificaciones en el slideshow*/
+
+.page-header{
+    color: white;
+    border-radius: 20px;
+    background: #222;
+    text-align: center;
+    border: 5px solid #545454;
+}
+
+.row>.a1>p{
+    padding: 20px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.thumbnail{
+    background: #545454;
+    border: 5px solid #222;
+}
+
+.caption h3, .caption >.text{
+    color: white;
+    padding: 2px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.caption >.text{
+    border-radius: 5px;
+}
+
+.blog-title{
+    font-size: 50px;
+    color: white;
+    border-radius: 20px;
+    background: #222;
+    text-align: center;
+    border: 5px solid #545454;
+}
+
+hr{
+    border: 1px solid rgba(0,0,0,0.6);
+}
+
+a{
+    color: aliceblue;
+}
+
+a:hover{
+    color: rgb(255,180,30);
+}
+
+.sidebar-module{
+    color: white;
+    border-radius: 20px;
+    background: #222;
+    border: 5px solid #545454;
+}
+
+.sidebar-module>h4,ul{
+    margin-left: 20px;
+}
+
+.blog-post>p{
+    text-align: justify;
+}
+
+/*Modificaciones en la parte de los profesores*/
+#photos-prof.row>.col-sm-4>img{
+    border: 5px solid #444;
+}
+
+#photos-prof.row>.col-sm-4>h3{
+    margin-top: -10px;
+}
+
+#photos-prof.row>.col-sm-4>h4{
+    color: #444;
+}
+
+#photos-prof.row>.col-sm-4>p{
+    text-align: justify;
+}
+/*Fin modificaciones en la parte profesores*/
+
+/*Midificaciones en el footer*/
+.blog-footer{
+    padding: 40px 0;
+    color: #999;
+    text-align: center;
+    background-color: #222;
+    border-top: 1px solid #545454;
+}
+
+/*Fin modificaciones en el footer*/
+
+/*Modificaciones en la pagina inscripcion*/
+.formulaire-title{
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.panel-primary{
+    border-color: #333;
+    background-color: rgba(255,255,255,0.3);
+}
+
+.panel-primary > .panel-heading{
+    background-color: rgb(255,180,30);
+    border: 2px solid #333;
+}
+
+h4.panel-title>a:hover{
+    color: #333;
+}
+
+.btn-primary{
+    background-color: rgb(255,180,30);
+    border-color: rgb(255,180,30);
+}
+
+.btn-primary:hover{
+    background-color: #ffca00;
+    border-color: rgb(255,180,30);
+}
+
+.btn-primary:active{
+    background-color: #ffca00;
+    border-color: rgb(255,180,30);
+}
+
+.btn-primary:focus{
+    background-color: #ffca00;
+    border-color: rgb(255,180,30);
+}
+/*Terminan modificaciones de la pagina inscripcion*/
+
+div#galeria .container .text-center{
+    background-color: rgba(255,255,255,0.6);
+}
+
+/*Barra de idiomas*/
+.breadcrumb{
+    background-color: #222;
+    border-radius: 0;
+}
+/*Fin barra idiomas*/
